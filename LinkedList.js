@@ -3,16 +3,6 @@
  * @class LinkedList
  */
 
- /**
-  * 链表元素类
-  */
-class LinkItem {
-  constructor(value) {
-    this.value = value
-    this.next = null
-  }
-}
-
 class LinkedList {
   constructor(list = []) {
     this.head = null
@@ -193,5 +183,15 @@ class LinkedList {
       }
       return list
     }
+  }
+}
+
+ /**
+  * 链表元素类
+  */
+ class LinkItem {
+  constructor(value) {
+    this.value = value
+    this.next = null
   }
 }
